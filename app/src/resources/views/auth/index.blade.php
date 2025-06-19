@@ -10,7 +10,7 @@
 @endif
 
 <ul>
-    <form method="post" action="{{url('login')}}">
+    <form method="post" action="{{url('doLogin')}}">
         @csrf
         <input name="name">
         <input name="password">

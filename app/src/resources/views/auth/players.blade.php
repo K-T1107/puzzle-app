@@ -6,7 +6,7 @@
     }
 </style>
 <body>
-<h1>■{{$title}}■</h1>
+<h1>■ユーザー一覧■</h1>
 <ul>
     　@foreach($accounts as $account)
         <li>ID:{{$account['id']}} 名前：{{$account['name']}} パス：{{$account['password']}}</li>
